@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  textfilewriter:
+    image: ${DOCKER_REGISTRY}textfilewriter
+    build:
+      context: .
+      dockerfile: TextFileWriter/Dockerfile
